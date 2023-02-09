@@ -3,7 +3,6 @@ body {
     width: 1300px;
     margin: 20px auto;
     padding : 10px;
-    text-align: center;
     background-color: white;
     overflow: hidden;
     font-size: 13px;
@@ -17,11 +16,14 @@ html {
 h1{
    color : blue;
    margin-top:5px;
-   margin-bottom:80px;
+   margin-bottom:60px;
+   text-align: center;
    }
 
 .bouton{
     border: 0;
+    display: block;
+      margin : auto;
      line-height: 2.5;
      padding: 0 20px;
      font-size: 1rem;
@@ -41,3 +43,4 @@ h1{
 .bouton:pointer{
     cursor: pointer;
 }
+

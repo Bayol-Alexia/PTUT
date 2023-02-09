@@ -46,10 +46,14 @@ section{
 ]
 
 #col1{
- width:50%;
+ width:33%;
 }
 
 #col2{
-  width:50%;
+  width:33%;
   margin-left:15%
+}
+
+#col3{
+   width:33%;
 }

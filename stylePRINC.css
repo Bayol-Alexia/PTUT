@@ -1,0 +1,20 @@
+html {
+    background-color: #283593;
+}
+
+body {
+    font-size: 13px;
+    width: 1300px;
+    margin : 20px auto;
+    padding: 10px;
+    text-align: center;
+    color : white;
+}
+
+div a{
+    color: white;
+}
+
+img{
+    margin:40px auto;
+}

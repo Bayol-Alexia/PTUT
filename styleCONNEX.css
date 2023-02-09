@@ -1,0 +1,36 @@
+body {
+    border: 10px double black;
+    width: 1300px;
+    margin: 20px auto;
+    padding : 10px;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    font-size: 13px;
+    }
+
+html {
+    background-color: #283593;
+}
+
+.bouton{
+    border: 0;
+         line-height: 2.5;
+         padding: 0 20px;
+         font-size: 1rem;
+         color: white;
+         text-align: center;
+         text-shadow: 1px 1px 1px #000;
+         border-radius: 10px;
+         background-color: royalblue;
+
+         box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.bouton:hover {
+    background: blue;
+    }
+
+.bouton:pointer{
+    cursor: pointer;
+}

@@ -1,11 +1,18 @@
 body {
     border: 10px double black;
-    margin: 100px;
-    padding : 50px;
+    width: 1300px;
+    margin: 20px auto;
+    padding : 10px;
     text-align: center;
     background-color: white;
     overflow: hidden;
+    font-size: 13px;
     }
+
+html {
+    background-color: #283593;
+}
+
 
 h1{
    color : blue;

@@ -9,17 +9,18 @@
 <h1>Identité de l'étudiant</h1>
 <form>
     <div class="c100">
-        <label for="prenom">Prénom : </label>
-        <input type="text" id="prenom" name="prenom">
         <label for="nom">Nom : </label>
         <input type="text" id="nom" name="nom">
+        <label for="prenom">Prénom : </label>
+        <input type="text" id="prenom" name="prenom">
     </div>
 </form>
 <hr noshade size="3" color="royalblue">
-<h1>Parcours académique</h1>
 
 <section class="container">
     <section class="col1">
+        <h1>Parcours académique</h1>
+
         <h2>FIE1</h2>
 
         <form action="formulaire.php" method="post">
@@ -413,41 +414,43 @@
         </form>
     </section>
     <section class="col2">
+        <h1>Parcours alternant</h1>
+
         <h2>FIA3</h2>
 
         <form>
             <table border="1">
                 <thead>
                 <tr>
-                    <th>Semestre 1</th>
-                    <th>Semestre 2</th>
+                    <th>Académique</th>
+                    <th>Apprentissage</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>
                         <div class="c100">
-                            <label for="annee_univFIA3_S1">Année Universitaire : </label>
-                            <input type="text" id="annee_univFIA3_S1" name="annee_univ">
+                            <label for="annee_univFIA3">Année Universitaire : </label>
+                            <input type="text" id="annee_univFIA3" name="annee_univ">
                         </div>
                         <div class="c100">
-                            <label for="etablissementFIA3_S1">Etablissement : </label>
-                            <input type="text" id="etablissementFIA3_S1" name="etablissement">
-                        </div>
-
-                        <div class="c100">
-                            <label for="villeETAFIA3_S1">Ville : </label>
-                            <input type="text" id="villeETAFIA3_S1" name="villeETA">
+                            <label for="etablissementFIA3">Etablissement : </label>
+                            <input type="text" id="etablissementFIA3" name="etablissement">
                         </div>
 
                         <div class="c100">
-                            <label for="paysETAFIA3_S1">Pays : </label>
-                            <input type="text" id="paysETAFIA3_S1" name="paysETA">
+                            <label for="villeETAFIA3">Ville : </label>
+                            <input type="text" id="villeETAFIA3" name="villeETA">
                         </div>
 
                         <div class="c100">
-                            <label for="langueETAFIA3_S1">Langue : </label>
-                            <select id="langueETAFIA3_S1" name="pays">
+                            <label for="paysETAFIA3">Pays : </label>
+                            <input type="text" id="paysETAFIA3" name="paysETA">
+                        </div>
+
+                        <div class="c100">
+                            <label for="langueETAFIA3">Langue : </label>
+                            <select id="langueETAFIA3" name="pays">
                                 <option value="francais">Français</option>
                                 <option value="anglais">Anglais</option>
                                 <option value="espagnol">Espagnol</option>
@@ -457,27 +460,27 @@
                     </td>
                     <td>
                         <div class="c100">
-                            <label for="annee_univFIA3_S2">Année Universitaire : </label>
-                            <input type="text" id="annee_univFIA3_S2" name="annee_univ">
+                            <label for="entrepriseFIA3">Entreprise : </label>
+                            <input type="text" id="entrepriseFIA3" name="entreprise">
                         </div>
                         <div class="c100">
-                            <label for="etablissementFIA3_S2">Etablissement : </label>
-                            <input type="text" id="etablissementFIA3_S2" name="etablissement">
-                        </div>
-
-                        <div class="c100">
-                            <label for="villeETAFIA3_S2">Ville : </label>
-                            <input type="text" id="villeETAFIA3_S2" name="villeETA">
+                            <label for="dureeContratFIA3">Durée contrat : </label>
+                            <input type="text" id="dureeContratFIA3" name="dureeContrat">
                         </div>
 
                         <div class="c100">
-                            <label for="paysETAFIA3_S2">Pays : </label>
-                            <input type="text" id="paysETAFIA3_S2" name="paysETA">
+                            <label for="villeETAFIA3app">Ville : </label>
+                            <input type="text" id="villeETAFIA3app" name="villeETA">
                         </div>
 
                         <div class="c100">
-                            <label for="langueETAFIA3_S2">Langue : </label>
-                            <select id="langueETAFIA3_S2" name="pays">
+                            <label for="paysETAFIA3app">Pays : </label>
+                            <input type="text" id="paysETAFIA3app" name="paysETA">
+                        </div>
+
+                        <div class="c100">
+                            <label for="langueETAFIA3app">Langue : </label>
+                            <select id="langueETAFIA3app" name="pays">
                                 <option value="francais">Français</option>
                                 <option value="anglais">Anglais</option>
                                 <option value="espagnol">Espagnol</option>
@@ -496,35 +499,35 @@
             <table border="1">
                 <thead>
                 <tr>
-                    <th>Semestre 1</th>
-                    <th>Semestre 2</th>
+                    <th>Académique</th>
+                    <th>Apprentissage</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>
                         <div class="c100">
-                            <label for="annee_univFIA4_S1">Année Universitaire : </label>
-                            <input type="text" id="annee_univFIA4_S1" name="annee_univ">
+                            <label for="annee_univFIA4">Année Universitaire : </label>
+                            <input type="text" id="annee_univFIA4" name="annee_univ">
                         </div>
                         <div class="c100">
-                            <label for="etablissementFIA4_S1">Etablissement : </label>
-                            <input type="text" id="etablissementFIA4_S1" name="etablissement">
-                        </div>
-
-                        <div class="c100">
-                            <label for="villeETAFIA4_S1">Ville : </label>
-                            <input type="text" id="villeETAFIA4_S1" name="villeETA">
+                            <label for="etablissementFIA4">Etablissement : </label>
+                            <input type="text" id="etablissementFIA4" name="etablissement">
                         </div>
 
                         <div class="c100">
-                            <label for="paysETAFIA4_S1">Pays : </label>
-                            <input type="text" id="paysETAFIA4_S1" name="paysETA">
+                            <label for="villeETAFIA4">Ville : </label>
+                            <input type="text" id="villeETAFIA4" name="villeETA">
                         </div>
 
                         <div class="c100">
-                            <label for="langueETAFIA4_S1">Langue : </label>
-                            <select id="langueETAFIA4_S1" name="pays">
+                            <label for="paysETAFIA4">Pays : </label>
+                            <input type="text" id="paysETAFIA4" name="paysETA">
+                        </div>
+
+                        <div class="c100">
+                            <label for="langueETAFIA4">Langue : </label>
+                            <select id="langueETAFIA4" name="pays">
                                 <option value="francais">Français</option>
                                 <option value="anglais">Anglais</option>
                                 <option value="espagnol">Espagnol</option>
@@ -534,27 +537,27 @@
                     </td>
                     <td>
                         <div class="c100">
-                            <label for="annee_univFIA4_S2">Année Universitaire : </label>
-                            <input type="text" id="annee_univFIA4_S2" name="annee_univ">
+                            <label for="entrepriseFIA4">Entreprise : </label>
+                            <input type="text" id="entrepriseFIA4" name="entreprise">
                         </div>
                         <div class="c100">
-                            <label for="etablissementFIA4_S2">Etablissement : </label>
-                            <input type="text" id="etablissementFIA4_S2" name="etablissement">
-                        </div>
-
-                        <div class="c100">
-                            <label for="villeETAFIA4_S2">Ville : </label>
-                            <input type="text" id="villeETAFIA4_S2" name="villeETA">
+                            <label for="dureeContratFIA4">Durée contrat : </label>
+                            <input type="text" id="dureeContratFIA4" name="dureeContrat">
                         </div>
 
                         <div class="c100">
-                            <label for="paysETAFIA4_S2">Pays : </label>
-                            <input type="text" id="paysETAFIA4_S2" name="paysETA">
+                            <label for="villeETAFIA4app">Ville : </label>
+                            <input type="text" id="villeETAFIA4app" name="villeETA">
                         </div>
 
                         <div class="c100">
-                            <label for="langueETAFIA4_S2">Langue : </label>
-                            <select id="langueETAFIA4_S2" name="pays">
+                            <label for="paysETAFIA4app">Pays : </label>
+                            <input type="text" id="paysETAFIA4app" name="paysETA">
+                        </div>
+
+                        <div class="c100">
+                            <label for="langueETAFIA4app">Langue : </label>
+                            <select id="langueETAFIA4app" name="pays">
                                 <option value="francais">Français</option>
                                 <option value="anglais">Anglais</option>
                                 <option value="espagnol">Espagnol</option>
@@ -573,35 +576,35 @@
             <table border="1">
                 <thead>
                 <tr>
-                    <th>Semestre 1</th>
-                    <th>Semestre 2</th>
+                    <th>Académique</th>
+                    <th>Apprentissage</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>
                         <div class="c100">
-                            <label for="annee_univFIA5_S1">Année Universitaire : </label>
-                            <input type="text" id="annee_univFIA5_S1" name="annee_univ">
+                            <label for="annee_univFIA5">Année Universitaire : </label>
+                            <input type="text" id="annee_univFIA5" name="annee_univ">
                         </div>
                         <div class="c100">
-                            <label for="etablissementFIA5_S1">Etablissement : </label>
-                            <input type="text" id="etablissementFIA5_S1" name="etablissement">
-                        </div>
-
-                        <div class="c100">
-                            <label for="villeETAFIA5_S1">Ville : </label>
-                            <input type="text" id="villeETAFIA5_S1" name="villeETA">
+                            <label for="etablissementFIA5">Etablissement : </label>
+                            <input type="text" id="etablissementFIA5" name="etablissement">
                         </div>
 
                         <div class="c100">
-                            <label for="paysETAFIA5_S1">Pays : </label>
-                            <input type="text" id="paysETAFIA5_S1" name="paysETA">
+                            <label for="villeETAFIA5">Ville : </label>
+                            <input type="text" id="villeETAFIA5" name="villeETA">
                         </div>
 
                         <div class="c100">
-                            <label for="langueETAFIA5_S1">Langue : </label>
-                            <select id="langueETAFIA5_S1" name="pays">
+                            <label for="paysETAFIA5">Pays : </label>
+                            <input type="text" id="paysETAFIA5" name="paysETA">
+                        </div>
+
+                        <div class="c100">
+                            <label for="langueETAFIA5">Langue : </label>
+                            <select id="langueETAFIA5" name="pays">
                                 <option value="francais">Français</option>
                                 <option value="anglais">Anglais</option>
                                 <option value="espagnol">Espagnol</option>
@@ -611,27 +614,27 @@
                     </td>
                     <td>
                         <div class="c100">
-                            <label for="annee_univFIA5_S2">Année Universitaire : </label>
-                            <input type="text" id="annee_univFIA5_S2" name="annee_univ">
+                            <label for="entrepriseFIA5">Entreprise : </label>
+                            <input type="text" id="entrepriseFIA5" name="entreprise">
                         </div>
                         <div class="c100">
-                            <label for="etablissementFIA5_S2">Etablissement : </label>
-                            <input type="text" id="etablissementFIA5_S2" name="etablissement">
-                        </div>
-
-                        <div class="c100">
-                            <label for="villeETAFIA5_S2">Ville : </label>
-                            <input type="text" id="villeETAFIA5_S2" name="villeETA">
+                            <label for="dureeContratFIA5">Durée contrat : </label>
+                            <input type="text" id="dureeContratFIA5" name="dureeContrat">
                         </div>
 
                         <div class="c100">
-                            <label for="paysETAFIA5_S2">Pays : </label>
-                            <input type="text" id="paysETAFIA5_S2" name="paysETA">
+                            <label for="villeETAFIA5app">Ville : </label>
+                            <input type="text" id="villeETAFIA5app" name="villeETA">
                         </div>
 
                         <div class="c100">
-                            <label for="langueETAFIA5_S2">Langue : </label>
-                            <select id="langueETAFIA5_S2" name="pays">
+                            <label for="paysETAFIA5app">Pays : </label>
+                            <input type="text" id="paysETAFIA5app" name="paysETA">
+                        </div>
+
+                        <div class="c100">
+                            <label for="langueETAFIA5app">Langue : </label>
+                            <select id="langueETAFIA5app" name="pays">
                                 <option value="francais">Français</option>
                                 <option value="anglais">Anglais</option>
                                 <option value="espagnol">Espagnol</option>
@@ -793,7 +796,7 @@
 
 <hr>
 <div class="c100" id="submit">
-    <input type="submit" value="Envoyer">
+    <input type="submit" value="Sauvegarder">
 </div>
 
 </body>

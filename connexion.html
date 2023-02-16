@@ -11,13 +11,16 @@
 <h1>Se connecter</h1>
 <div class="c100">
     <label for="email">Email : </label>
-    <input type="text" id="email" name="email">
+    <input type="email" id="email"
+           pattern=".+@globex\.com" size="30" required>
 </div>
 <div>
     <label for="mdp">Mot de passe : </label>
-    <input type="text" id="mdp" name="mdp">
+    <input type="password" id="mdp" name="mdp"
+           required>
 </div>
-<a href="http://localhost:63342/ProjetTUT/changementMDP.html?_ijt=9vn57pefpi1np22l2bnrqa6c7g&_ij_reload=RELOAD_ON_SAVE">Mot de passe oublié ?</a>
+<a href="http://localhost:63342/ProjetTUT/changementMDP.html?_ijt=9vn57pefpi1np22l2bnrqa6c7g&_ij_reload=RELOAD_ON_SAVE">Mot
+    de passe oublié ?</a>
 <div>
     <input class="bouton" type="button" name="lien1" value="Entrer"
            onclick="self.location.href='http://localhost:63342/ProjetTUT/accueil.html?_ijt=i2ic46tbgcb2v8u19r7g99au4d&_ij_reload=RELOAD_ON_SAVE'">
